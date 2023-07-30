@@ -1,5 +1,6 @@
 {% extends 'myapp/main.html' %}
 {% block content %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 <div class="header-bar">
     <h1>Login</h1>
@@ -12,6 +13,11 @@
         <input class="button" type="submit" value="Login">
     </form>
     <p>Don't have an account? <a href="{% url 'register' %}">Register</a></p>
+    {% load socialaccount %}
+     <center> OR SignUp With <br><br>
+    <a href="{% provider_login_url 'google' %}?next=/"> <i class="bi bi-lg bi-google" > </i></a>
+
+     </center>
 </div>
 
 

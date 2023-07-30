@@ -7,7 +7,7 @@ from django.urls import reverse_lazy
 from django.contrib.auth.views import LoginView, PasswordChangeView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth import login
+from django.contrib.auth import login,logout
 
 
 # Create your views here.
@@ -75,3 +75,7 @@ class TaskDelete(LoginRequiredMixin,DeleteView):
     model = Task
     context_object_name = 'tasks'
     success_url = reverse_lazy('tasks')
+
+def logout_view(request):
+    logout(request)
+    return redirect('/')
