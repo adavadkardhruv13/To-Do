@@ -1,7 +1,5 @@
 # Django To-Do Web Application
 
-![Project Logo](path/to/your/logo.png)
-
 ## Overview
 
 This Django To-Do Web Application is a simple task management system that allows users to create, view, update, and delete tasks. It includes user authentication, a responsive interface, and integration with Google OAuth for user registration and login.
