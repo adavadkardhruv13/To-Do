@@ -19,13 +19,13 @@ This Django To-Do Web Application is a simple task management system that allows
 Include screenshots of the key features to provide a visual representation of your project.
 
 1. **Task List:**
-   ![Task List](screenshots/task_list.png)
+   ![Task List](task_list.png)
 
 2. **Task Detail:**
-   ![Task Detail](screenshots/task_detail.png)
+   ![Task Detail](task_detail.png)
 
 3. **Login Page:**
-   ![Login Page](screenshots/login_page.png)
+   ![Login Page](login_page.png)
 
 ## Prerequisites
 
